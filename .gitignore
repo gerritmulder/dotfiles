@@ -1,0 +1,40 @@
+# Template for C:\Users\{Username} dotfiles repository
+
+# Visual Studio Code extensions
+.vscode/extensions
+
+# Azure Data Studio
+.azuredatastudio
+
+# OmniSharp
+./omnisharp
+
+# LibMan
+.librarymanager/
+
+# NuGet package sources
+.nuget/
+
+# .NET SDK
+.dotnet/
+.templateengine/
+
+# configstore
+.config/configstore/
+
+# default Windows directories and files
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+MicrosoftEdgeBackups/
+Music/
+Saved Games/
+Searches/
+Videos/
+ntuser.*
+
+# custom directories
