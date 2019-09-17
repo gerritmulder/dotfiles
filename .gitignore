@@ -1,5 +1,8 @@
 # Template for C:\Users\{Username} dotfiles repository
 
+# Visual Studio
+**/.vs
+
 # Visual Studio Code extensions
 .vscode/extensions
 
@@ -12,17 +15,23 @@
 # LibMan
 .librarymanager/
 
-# NuGet package sources
+# NuGet
 .nuget/
 
 # .NET SDK
 .dotnet/
 .templateengine/
 
+# SQL Server
+*.mdf
+*.ldf
+*.ndf
+
 # configstore
 .config/configstore/
 
 # default Windows directories and files
+3D Objects/
 AppData/
 Contacts/
 Desktop/
@@ -32,9 +41,13 @@ Favorites/
 Links/
 MicrosoftEdgeBackups/
 Music/
+Pictures/
 Saved Games/
 Searches/
 Videos/
 ntuser.*
 
-# custom directories
+# custom directories and files
+.gitconfig
+projects/
+symbols/
