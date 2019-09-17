@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- source: https://nuget.devexpress.com/early-access/api -->
+    <PackageReference Include="DevExpress.WindowsDesktop.Xaf" Version="19.2.1-ctp-19231" />
+  </ItemGroup>
+
+</Project>

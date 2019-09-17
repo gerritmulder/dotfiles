@@ -30,6 +30,10 @@
 # configstore
 .config/configstore/
 
+binary directories
+**/bin/
+**/obj/
+
 # default Windows directories and files
 3D Objects/
 AppData/
