@@ -18,20 +18,8 @@ namespace XafAspNetWebForms
             WebApplication.SetInstance(Session, new Application());
             WebApplication.Instance.SwitchToNewStyle();
             WebApplication.Instance.Modules.Add(new SystemAspNetModule());
-            WebApplication.Instance.Modules.Add(new Module());
             WebApplication.Instance.Setup();
             WebApplication.Instance.Start();
-        }
-    }
-
-    public class Module : ModuleBase
-    {
-        protected override System.Collections.Generic.IEnumerable<Type> GetDeclaredExportedTypes() => new[] { typeof(Person) };
-        
-        [DevExpress.Persistent.Base.NavigationItem("Default")]
-        public class Person : DevExpress.Xpo.XPObject
-        {
-            public string Name { get; set; }
         }
     }
 }
