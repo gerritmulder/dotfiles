@@ -1,7 +1,6 @@
 public class DebugShowViewStrategy : DevExpress.ExpressApp.Win.WinShowViewStrategyBase
 {
-	public DebugShowViewStrategy(DevExpress.ExpressApp.XafApplication application)
-		: base(application)
+	public DebugShowViewStrategy(DevExpress.ExpressApp.XafApplication application) : base(application)
 	{
 	}
 
